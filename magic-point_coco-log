@@ -1,0 +1,136 @@
+[07/25/2019 22:00:56 INFO] Running command TRAIN
+[07/25/2019 22:00:56 INFO] Number of GPUs detected: 1
+2019-07-25 22:01:08.070796: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-25 22:01:08.588260: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:88:00.0
+totalMemory: 11.90GiB freeMemory: 11.75GiB
+2019-07-25 22:01:08.588358: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-25 22:01:08.991371: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-25 22:01:08.991412: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-25 22:01:08.991418: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-25 22:01:08.991729: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:88:00.0, compute capability: 6.1)
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:11 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+[07/25/2019 22:01:12 INFO] Scale of 0 disables regularizer.
+2019-07-25 22:01:13.055886: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-25 22:01:13.055961: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-25 22:01:13.056018: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-25 22:01:13.056037: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-25 22:01:13.056306: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:88:00.0, compute capability: 6.1)
+[07/25/2019 22:01:28 INFO] Start training
+[07/25/2019 22:02:52 INFO] Iter    0: loss 4.5849, precision 0.0023, recall 0.0547
+[07/25/2019 22:13:29 INFO] Iter 1000: loss 1.5337, precision 0.0039, recall 0.1032
+[07/25/2019 22:21:08 INFO] Iter 2000: loss 0.7208, precision 0.0050, recall 0.1323
+[07/25/2019 22:28:25 INFO] Iter 3000: loss 0.5310, precision 0.0051, recall 0.1372
+[07/25/2019 22:34:54 INFO] Iter 4000: loss 0.4055, precision 0.0072, recall 0.1599
+[07/25/2019 22:40:49 INFO] Iter 5000: loss 0.3990, precision 0.0198, recall 0.1621
+[07/25/2019 22:46:54 INFO] Iter 6000: loss 0.4105, precision 0.0209, recall 0.1644
+[07/25/2019 22:52:58 INFO] Iter 7000: loss 0.4005, precision 0.0265, recall 0.1656
+[07/25/2019 22:58:59 INFO] Iter 8000: loss 0.3660, precision 0.0268, recall 0.1658
+[07/25/2019 23:04:59 INFO] Iter 9000: loss 0.3470, precision 0.0277, recall 0.1668
+[07/25/2019 23:11:01 INFO] Iter 10000: loss 0.3626, precision 0.0323, recall 0.1726
+[07/25/2019 23:17:02 INFO] Iter 11000: loss 0.3285, precision 0.0273, recall 0.1693
+[07/25/2019 23:23:09 INFO] Iter 12000: loss 0.3341, precision 0.0232, recall 0.1700
+[07/25/2019 23:29:06 INFO] Iter 13000: loss 0.3496, precision 0.0303, recall 0.1761
+[07/25/2019 23:35:04 INFO] Iter 14000: loss 0.3703, precision 0.0381, recall 0.1820
+[07/25/2019 23:40:57 INFO] Iter 15000: loss 0.3276, precision 0.0276, recall 0.1777
+[07/25/2019 23:46:16 INFO] Iter 16000: loss 0.3545, precision 0.0329, recall 0.1767
+[07/25/2019 23:50:53 INFO] Iter 17000: loss 0.3597, precision 0.0405, recall 0.1821
+[07/25/2019 23:55:26 INFO] Training finished
+[07/25/2019 23:55:27 INFO] Saving checkpoint for iteration #18000
+[07/26/2019 14:27:53 INFO] Running command TRAIN
+[07/26/2019 14:27:53 INFO] Number of GPUs detected: 1
+2019-07-26 14:28:05.370475: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-26 14:28:05.765916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:88:00.0
+totalMemory: 11.90GiB freeMemory: 11.75GiB
+2019-07-26 14:28:05.765950: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-26 14:28:06.036454: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-26 14:28:06.036506: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-26 14:28:06.036514: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-26 14:28:06.040766: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:88:00.0, compute capability: 6.1)
+[07/26/2019 14:28:08 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:08 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:08 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:08 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:09 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+[07/26/2019 14:28:10 INFO] Scale of 0 disables regularizer.
+2019-07-26 14:28:10.287872: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-26 14:28:10.287931: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-26 14:28:10.287937: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-26 14:28:10.287940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-26 14:28:10.288156: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:88:00.0, compute capability: 6.1)
+[07/26/2019 14:28:23 INFO] Start training
+[07/26/2019 14:29:36 INFO] Iter    0: loss 4.6070, precision 0.0028, recall 0.0588
+[07/26/2019 14:35:43 INFO] Iter 1000: loss 1.6294, precision 0.0033, recall 0.0762
+[07/26/2019 14:42:02 INFO] Iter 2000: loss 0.7515, precision 0.0037, recall 0.0869
+[07/26/2019 14:48:14 INFO] Iter 3000: loss 0.5246, precision 0.0037, recall 0.0889
+[07/26/2019 14:53:32 INFO] Iter 4000: loss 0.4027, precision 0.0057, recall 0.1002
+[07/26/2019 14:58:37 INFO] Iter 5000: loss 0.4016, precision 0.0121, recall 0.0953
+[07/26/2019 15:03:44 INFO] Iter 6000: loss 0.3950, precision 0.0213, recall 0.1120
+[07/26/2019 15:08:53 INFO] Iter 7000: loss 0.4202, precision 0.0203, recall 0.1112
+[07/26/2019 15:14:01 INFO] Iter 8000: loss 0.3708, precision 0.0232, recall 0.1155
+[07/26/2019 15:19:10 INFO] Iter 9000: loss 0.3439, precision 0.0217, recall 0.1154
+[07/26/2019 15:24:18 INFO] Iter 10000: loss 0.3409, precision 0.0270, recall 0.1206
+[07/26/2019 15:29:30 INFO] Iter 11000: loss 0.3095, precision 0.0296, recall 0.1285
+[07/26/2019 15:34:41 INFO] Iter 12000: loss 0.3370, precision 0.0238, recall 0.1233
+[07/26/2019 15:39:47 INFO] Iter 13000: loss 0.3763, precision 0.0296, recall 0.1282
+[07/26/2019 15:44:50 INFO] Iter 14000: loss 0.3497, precision 0.0297, recall 0.1313
+[07/26/2019 15:49:51 INFO] Iter 15000: loss 0.3421, precision 0.0297, recall 0.1292
+[07/26/2019 15:54:50 INFO] Iter 16000: loss 0.3652, precision 0.0362, recall 0.1365
+[07/26/2019 15:59:55 INFO] Iter 17000: loss 0.3856, precision 0.0290, recall 0.1289
+[07/26/2019 16:05:02 INFO] Training finished
+[07/26/2019 16:05:03 INFO] Saving checkpoint for iteration #18000

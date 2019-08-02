@@ -1,0 +1,102 @@
+[07/25/2019 11:06:55 INFO] Running command TRAIN
+[07/25/2019 11:06:55 INFO] Number of GPUs detected: 1
+[07/25/2019 11:06:57 INFO] Extracting archive for primitive draw_lines.
+[07/25/2019 11:07:00 INFO] Extracting archive for primitive draw_polygon.
+[07/25/2019 11:07:06 INFO] Extracting archive for primitive draw_multiple_polygons.
+[07/25/2019 11:07:15 INFO] Extracting archive for primitive draw_ellipses.
+[07/25/2019 11:07:27 INFO] Extracting archive for primitive draw_star.
+[07/25/2019 11:07:43 INFO] Extracting archive for primitive draw_checkerboard.
+[07/25/2019 11:08:02 INFO] Extracting archive for primitive draw_stripes.
+[07/25/2019 11:08:25 INFO] Extracting archive for primitive draw_cube.
+[07/25/2019 11:08:52 INFO] Extracting archive for primitive gaussian_noise.
+[07/25/2019 11:09:28 INFO] Caching data, fist access will take some time.
+[07/25/2019 11:09:29 INFO] Caching data, fist access will take some time.
+[07/25/2019 11:09:29 INFO] Caching data, fist access will take some time.
+2019-07-25 11:09:29.746512: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2019-07-25 11:09:30.073924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1392] Found device 0 with properties: 
+name: TITAN X (Pascal) major: 6 minor: 1 memoryClockRate(GHz): 1.531
+pciBusID: 0000:88:00.0
+totalMemory: 11.90GiB freeMemory: 11.75GiB
+2019-07-25 11:09:30.073955: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-25 11:09:30.330987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-25 11:09:30.331016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-25 11:09:30.331022: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-25 11:09:30.331316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:88:00.0, compute capability: 6.1)
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:32 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+[07/25/2019 11:09:33 INFO] Scale of 0 disables regularizer.
+2019-07-25 11:09:33.795695: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1471] Adding visible gpu devices: 0
+2019-07-25 11:09:33.795748: I tensorflow/core/common_runtime/gpu/gpu_device.cc:952] Device interconnect StreamExecutor with strength 1 edge matrix:
+2019-07-25 11:09:33.795754: I tensorflow/core/common_runtime/gpu/gpu_device.cc:958]      0 
+2019-07-25 11:09:33.795758: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   N 
+2019-07-25 11:09:33.795987: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1084] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 11374 MB memory) -> physical GPU (device: 0, name: TITAN X (Pascal), pci bus id: 0000:88:00.0, compute capability: 6.1)
+[07/25/2019 11:09:39 INFO] Start training
+[07/25/2019 11:09:55 INFO] Iter    0: loss 4.6224, precision 0.0005, recall 0.0463
+[07/25/2019 11:12:09 INFO] Iter 1000: loss 1.3414, precision 0.0031, recall 0.2901
+[07/25/2019 11:14:29 INFO] Iter 2000: loss 0.4633, precision 0.0040, recall 0.3806
+[07/25/2019 11:16:51 INFO] Iter 3000: loss 0.2598, precision 0.0041, recall 0.3825
+[07/25/2019 11:19:08 INFO] Iter 4000: loss 0.1643, precision 0.0046, recall 0.3946
+[07/25/2019 11:21:16 INFO] Iter 5000: loss 0.1221, precision 0.0795, recall 0.4308
+[07/25/2019 11:23:25 INFO] Iter 6000: loss 0.1073, precision 0.1466, recall 0.4220
+[07/25/2019 11:25:35 INFO] Iter 7000: loss 0.1076, precision 0.1884, recall 0.4353
+[07/25/2019 11:27:44 INFO] Iter 8000: loss 0.0973, precision 0.2003, recall 0.4365
+[07/25/2019 11:29:52 INFO] Iter 9000: loss 0.0838, precision 0.2375, recall 0.4654
+[07/25/2019 11:32:03 INFO] Iter 10000: loss 0.0699, precision 0.2466, recall 0.4531
+[07/25/2019 11:34:12 INFO] Iter 11000: loss 0.0796, precision 0.2891, recall 0.4773
+[07/25/2019 11:36:19 INFO] Iter 12000: loss 0.0876, precision 0.2231, recall 0.4408
+[07/25/2019 11:38:31 INFO] Iter 13000: loss 0.1044, precision 0.2784, recall 0.4864
+[07/25/2019 11:40:44 INFO] Iter 14000: loss 0.1007, precision 0.3167, recall 0.5045
+[07/25/2019 11:42:59 INFO] Iter 15000: loss 0.1008, precision 0.2952, recall 0.4980
+[07/25/2019 11:45:06 INFO] Iter 16000: loss 0.0900, precision 0.3015, recall 0.5189
+[07/25/2019 11:47:14 INFO] Iter 17000: loss 0.0689, precision 0.3187, recall 0.4981
+[07/25/2019 11:49:21 INFO] Iter 18000: loss 0.0738, precision 0.3262, recall 0.5196
+[07/25/2019 11:51:28 INFO] Iter 19000: loss 0.0789, precision 0.2948, recall 0.4769
+[07/25/2019 11:53:35 INFO] Iter 20000: loss 0.0806, precision 0.2699, recall 0.5273
+[07/25/2019 11:55:42 INFO] Iter 21000: loss 0.1004, precision 0.3184, recall 0.5238
+[07/25/2019 11:57:49 INFO] Iter 22000: loss 0.0849, precision 0.3604, recall 0.5124
+[07/25/2019 11:59:57 INFO] Iter 23000: loss 0.0814, precision 0.3384, recall 0.5294
+[07/25/2019 12:02:05 INFO] Iter 24000: loss 0.0851, precision 0.3569, recall 0.5316
+[07/25/2019 12:04:12 INFO] Iter 25000: loss 0.0611, precision 0.2996, recall 0.4819
+[07/25/2019 12:06:20 INFO] Iter 26000: loss 0.0897, precision 0.3253, recall 0.5074
+[07/25/2019 12:08:27 INFO] Iter 27000: loss 0.0791, precision 0.3343, recall 0.5233
+[07/25/2019 12:10:35 INFO] Iter 28000: loss 0.0775, precision 0.3271, recall 0.4939
+[07/25/2019 12:12:42 INFO] Iter 29000: loss 0.0825, precision 0.3459, recall 0.5309
+[07/25/2019 12:14:51 INFO] Iter 30000: loss 0.0841, precision 0.3394, recall 0.4933
+[07/25/2019 12:16:59 INFO] Iter 31000: loss 0.0688, precision 0.3252, recall 0.5090
+[07/25/2019 12:19:06 INFO] Iter 32000: loss 0.0811, precision 0.3703, recall 0.5387
+[07/25/2019 12:21:14 INFO] Iter 33000: loss 0.0663, precision 0.3548, recall 0.5398
+[07/25/2019 12:23:22 INFO] Iter 34000: loss 0.0846, precision 0.2968, recall 0.4686
+[07/25/2019 12:25:29 INFO] Iter 35000: loss 0.0634, precision 0.3089, recall 0.4866
+[07/25/2019 12:27:37 INFO] Iter 36000: loss 0.0883, precision 0.3619, recall 0.5352
+[07/25/2019 12:29:45 INFO] Iter 37000: loss 0.0651, precision 0.3294, recall 0.5281
+[07/25/2019 12:31:53 INFO] Iter 38000: loss 0.0684, precision 0.3560, recall 0.5536
+[07/25/2019 12:34:00 INFO] Iter 39000: loss 0.0717, precision 0.3511, recall 0.5092
+[07/25/2019 12:36:07 INFO] Training finished
+[07/25/2019 12:36:08 INFO] Saving checkpoint for iteration #40000
